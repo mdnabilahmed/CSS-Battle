@@ -1,3 +1,88 @@
-h1{
-    color: red;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  height: 800px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.header h1 {
+  position: relative;
+  right: 55px;
+  bottom: 20px;
+  font-size: 24px;
+}
+.header p {
+  position: relative;
+  right: 52px;
+  bottom: 20px;
+  color: #888;
+}
+.game-card {
+  background-color: rgb(155, 66, 155);
+  color: #fff;
+  height: 390px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(238, 130, 238, 0.5);
+  border-radius: 20px;
+}
+.game-card img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.game-card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.game-card p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+.add-game {
+  padding-top: 70px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.add-game button {
+  background-color: rgb(155, 66, 155);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.add-game p{
+    font-size: 12px;
+    color: #ddd;
 }
