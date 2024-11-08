@@ -70,10 +70,10 @@ body {
 
 .character-card img {
     position: relative;
-    right: 60px;
+    right: 75px;
     bottom: 50px;
     height: 300px;
-    width: 250px;
+    width: 300px;
     border-radius: 8px;
 }
 
