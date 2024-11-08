@@ -20,14 +20,23 @@ body {
     color: #e62429;
 }
 
+.sub-logo{
+    font-size: 17px;
+    color: #9b9898;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+
 .search-bar {
     flex-grow: 1;
     margin: 0 20px;
 }
 
 .search-bar input {
+    color: black;
     width: 40%;
-    height: 30px;
+    height: 40px;
     position: relative;
     left: 390px;
     border-radius: 20px;
@@ -73,14 +82,14 @@ body {
     font-size: 23px;
     position: relative;
     left: 95px;
-    bottom: 300px;
+    bottom: 340px;
 }
 
 .character-card p {
     color: white;
     position: relative;
     left: 95px;
-    bottom: 320px;
+    bottom: 360px;
 }
 
 .footer {
